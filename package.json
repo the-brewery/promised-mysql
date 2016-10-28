@@ -1,6 +1,6 @@
 {
   "name": "promised-mysql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Q promise wrapper for Node Mysql Client",
   "main": "index.js",
   "directories": {
