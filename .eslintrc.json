@@ -1,0 +1,44 @@
+{
+    "rules": {
+        "indent": [
+            "error",
+            "tab",
+            {
+                "VariableDeclarator": {
+                    "const": 1
+                }
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": [
+            "error",
+            {
+                "allow": ["log", "warn", "error", "trace", "Console"]
+            }
+        ],
+        "valid-jsdoc": [
+            "error"
+        ],
+        "max-len": [
+            "error",
+            100
+        ]
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended"
+}

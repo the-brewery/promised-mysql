@@ -1,0 +1,38 @@
+{
+  "name": "promised-mysql",
+  "version": "0.1.0",
+  "description": "Q promise wrapper for Node Mysql Client",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-brewery/promised-mysql.git"
+  },
+  "keywords": [
+    "q",
+    "promise",
+    "mysql",
+    "storage",
+    "database"
+  ],
+  "author": "martvdmoosdijk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-brewery/promised-mysql/issues"
+  },
+  "homepage": "https://github.com/the-brewery/promised-mysql#readme",
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "mysql": "^2.11.1"
+  }
+}
